@@ -1,0 +1,19 @@
+.blue-background {
+    background-color: blue;
+    border: 3px solid black;
+    }
+    
+.red-background {
+    background-color: red;
+    border: 3px solid black;
+    }
+       
+.green-background {
+    background-color: green;
+    border: 3px solid black;
+}
+
+.silver-background {
+    background-color: silver;
+    border: 3px solid black;
+}
