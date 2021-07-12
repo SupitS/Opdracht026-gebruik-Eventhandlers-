@@ -2,7 +2,11 @@ const p1 = document.querySelector(".p1");
 const p2 = document.querySelector(".p2");
 const p3 = document.querySelector(".p3");
 
-const alertButton = document.querySelector(".btn-alert");
+
+const alertButton = document.getElementById("mybutton");
+alertButton.addEventListener("click", function () {
+  alert("button clicked!");
+});
 
 
 const changeBackgroundButton = document.querySelector(".change-background");
